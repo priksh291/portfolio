@@ -29,24 +29,28 @@ const Portfolio = ()=> {
         },
         {
             id:3,
-            src: one,
-            heading : "Gaming Hub",
-            sitelink : 'https://github.com/priksh291/gaming-video'
+            src: download,
+            heading : "Projects Server",
+            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
+            code: 'https://github.com/priksh291/reactcourse'
+            
         },
         {
             id:4,
-            src: oyo,
-            heading : "Hotel Reservation",
-            sitelink : 'https://dashing-tanuki-60664a.netlify.app/',
-            code : 'https://github.com/priksh291/airbnb-'
+            src: one,
+            heading : "Gaming Hub",
+            sitelink : "https://neon-cheesecake-5d4540.netlify.app/",
+            code : 'https://github.com/priksh291/gaming-video'
         },
+        
         {
             id:5,
-            src: download,
-            heading : "Pacman Game",
-            code: 'https://github.com/priksh291/pacman-game-using-c-'
-            
+            src: oyo,
+            heading : "Hotel Reservation",
+            sitelink : 'https://master--splendid-eclair-1056fd.netlify.app/',
+            code : 'https://github.com/priksh291/airbnb-'
         },
+        
         {
             id:6,
             src: digital,
