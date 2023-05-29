@@ -4,9 +4,11 @@ import css from "../assets/css.png"
 import javascript from "../assets/javascript.png"
 import reactImage from "../assets/react.png"
 import bootstrap from "../assets/bootstrap.png"
-import sql from "../assets/sql.jpg"
+import typescript from "../assets/typescript.png"
 import cplus from "../assets/cplus.png"
 import tailwind from "../assets/tailwind.png"
+import node from "../assets/node.png"
+
 const Experience = () => {
     
     const techs = [
@@ -48,8 +50,8 @@ const Experience = () => {
         },
         {
             id:7,
-            src:sql,
-            title: 'Sql',
+            src:typescript,
+            title: 'TypeScript',
             style: 'shadow-orange-500'
         },
         {
@@ -58,9 +60,15 @@ const Experience = () => {
             title: 'C++',
             style: 'shadow-green-500'
         },
+        {
+            id:9,
+            src:node,
+            title: 'Nodejs',
+            style: 'shadow-green-500'
+        },
     ]
   return (
-    <div name = "experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-20'>
+    <div name = "experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-20 '>
       <div className='max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-full h-full text-white'>
         <div>
             <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>
