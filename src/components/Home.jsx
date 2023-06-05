@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage from "../assets/HeroImage.jpg";
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from "react-scroll";
+import '../App.css'
 
 const Home = () => {
 
@@ -32,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src = {HeroImage} alt="My profile" className="rounded-3xl w-2/3 md:w-50 px-2 mx-auto"/>
+                <img src = {HeroImage} alt="My profile" className="rounded-3xl w-2/3 md:w-50 px-2 mx-auto animate-border-radius"/>
             </div>
         </div>
 
