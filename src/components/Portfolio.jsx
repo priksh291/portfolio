@@ -2,7 +2,7 @@ import React from 'react'
 import digital from '../assets/portfolio/digital.jpg'
 import pkcrypto from '../assets/portfolio/pkcrypto.jpg'
 import tenzi from '../assets/portfolio/tenzi.png'
-import one from '../assets/portfolio/one.jpg'
+import gym from '../assets/portfolio/gym.jpg'
 import oyo from '../assets/portfolio/oyo.jpg'
 import download from '../assets/portfolio/download.jpg'
 
@@ -22,11 +22,12 @@ const Portfolio = ()=> {
         },
         {
             id:2,
-            src: tenzi,
-            heading : "Tenzi Game",
-            sitelink : 'https://zippy-sorbet-03c2bc.netlify.app/',
-            code : 'https://github.com/priksh291/Tenzies'
+            src: gym,
+            heading : "Gym and Training Center- Fitclub",
+            sitelink : "https://playful-choux-bb46c2.netlify.app/",
+            code : 'https://github.com/priksh291/FitClub-Starter'
         },
+        
         {
             id:3,
             src: download,
@@ -37,10 +38,10 @@ const Portfolio = ()=> {
         },
         {
             id:4,
-            src: one,
-            heading : "Gaming Hub",
-            sitelink : "https://neon-cheesecake-5d4540.netlify.app/",
-            code : 'https://github.com/priksh291/gaming-video'
+            src: tenzi,
+            heading : "Tenzi Game",
+            sitelink : 'https://zippy-sorbet-03c2bc.netlify.app/',
+            code : 'https://github.com/priksh291/Tenzies'
         },
         
         {
