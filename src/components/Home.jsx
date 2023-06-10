@@ -16,8 +16,8 @@ const Home = () => {
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold">I'm a Web Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                I am Graduated Fresher.
-                a fresh graduate with a strong desire to learn and grow
+                I am a Front End Developer.
+                with a strong desire to learn and grow
                 I am driven by the desire to build beautiful, intuitive, and 
                 responsive user interfaces that delight users and
                 enhance their overall experience.

@@ -9,13 +9,21 @@ const About = () => {
         </div>
         
         <p className='text-xl mt-20'>  
-        My name is Prince Kshitij, and I am a recent graduate from JSS Academy of Technical Education, NOIDA.I completed my Bachelor's degree in Computer Science and Engineering (CSE).Throughout my academic journey, I acquired a strong foundation in programming, algorithms, and software development principles. My coursework provided me with a comprehensive understanding of various programming languages and technologies, including HTML, CSS, JavaScript, and framework like React.
+        My name is Prince Kshitij, and I am graduated from JSS Academy of Technical Education, NOIDA.I completed my Bachelor's degree in Computer Science and Engineering (CSE).
+
+        <br/>
+        
+        Passionate about the artistry and functionality of web development, I am a dedicated front-end developer with a strong drive to create engaging and user-centric digital experiences. I find joy in the intricate process of transforming designs into interactive websites that captivate and delight users. With a solid foundation in HTML, CSS, and JavaScript, I am committed to staying at the forefront of emerging trends and technologies in the rapidly evolving world of front-end development
         </p>
 
         <br/>
 
+        {/* <p className='text-xl'>
+        I strive to create visually stunning and functional websites. I am constantly exploring new technologies and trends in the industry to stay ahead of the curve and deliver cutting-edge solutions.
+        </p> */}
+
         <p className='text-xl'>
-        I am passionate about creating visually appealing and intuitive web experiences that combine functionality and aesthetics. I thrive in dynamic and challenging environments, continuously seeking opportunities to expand my knowledge and stay updated with the latest trends and technologies in development.
+        I have recently completed an enriching internship as a front-end developer, where I gained practical experience in collaborating with cross-functional teams and delivering high-quality projects within tight deadlines. Through my internship, I honed my skills in responsive design, optimized performance, and intuitive user interfaces.
         </p>
         
 
