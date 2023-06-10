@@ -17,7 +17,8 @@ const Home = () => {
                 <h2 className="text-4xl sm:text-7xl font-bold">I'm a Web Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                 I am a Developer,
-                with a strong desire to learn and grow
+                with a strong desire to learn and grow.
+                
                 I strive to create visually stunning and functional websites. I am constantly exploring new technologies and trends in the industry to stay ahead of the curve and deliver cutting-edge solutions
                 </p>
 
