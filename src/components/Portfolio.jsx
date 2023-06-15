@@ -36,9 +36,17 @@ const Portfolio = ()=> {
             sitelink : "https://playful-choux-bb46c2.netlify.app/",
             code : 'https://github.com/priksh291/FitClub-Starter'
         },
-        
         {
             id:4,
+            src: download,
+            heading : "Projects Server",
+            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
+            code: 'https://github.com/priksh291/reactcourse'
+            
+        },
+        
+        {
+            id:5,
             src: tenzi,
             heading : "Tenzi Game",
             sitelink : 'https://zippy-sorbet-03c2bc.netlify.app/',
@@ -46,14 +54,6 @@ const Portfolio = ()=> {
         },
         
         
-        {
-            id:5,
-            src: download,
-            heading : "Projects Server",
-            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
-            code: 'https://github.com/priksh291/reactcourse'
-            
-        },
         
         {
             id:6,
