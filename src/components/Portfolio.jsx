@@ -23,18 +23,18 @@ const Portfolio = ()=> {
         },
         {
             id:2,
+            src: spotify,
+            heading : "Spotify Clone",
+            sitelink : 'https://spotify-clone-client.netlify.app/',
+            code: 'https://github.com/priksh291/SpotifyClone2.0'
+            
+        },
+        {
+            id:3,
             src: gym,
             heading : "Gym and Training Center- Fitclub",
             sitelink : "https://playful-choux-bb46c2.netlify.app/",
             code : 'https://github.com/priksh291/FitClub-Starter'
-        },
-        {
-            id:3,
-            src: spotify,
-            heading : "Spotify",
-            sitelink : 'https://spotify-clone-client.netlify.app/',
-            code: 'https://github.com/priksh291/SpotifyClone2.0'
-            
         },
         
         {
@@ -45,16 +45,9 @@ const Portfolio = ()=> {
             code : 'https://github.com/priksh291/Tenzies'
         },
         
-        {
-            id:5,
-            src: oyo,
-            heading : "Hotel Reservation",
-            sitelink : 'https://master--splendid-eclair-1056fd.netlify.app/',
-            code : 'https://github.com/priksh291/airbnb-'
-        },
         
         {
-            id:6,
+            id:5,
             src: download,
             heading : "Projects Server",
             sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
@@ -62,6 +55,13 @@ const Portfolio = ()=> {
             
         },
         
+        {
+            id:6,
+            src: oyo,
+            heading : "Hotel Reservation",
+            sitelink : 'https://master--splendid-eclair-1056fd.netlify.app/',
+            code : 'https://github.com/priksh291/airbnb-'
+        },
     ]
     const handleClick = (sitelink) => {
         
