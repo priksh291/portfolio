@@ -1,10 +1,11 @@
 import React from 'react'
-import digital from '../assets/portfolio/digital.jpg'
+
 import pkcrypto from '../assets/portfolio/pkcrypto.jpg'
 import tenzi from '../assets/portfolio/tenzi.png'
 import gym from '../assets/portfolio/gym.jpg'
 import oyo from '../assets/portfolio/oyo.jpg'
 import download from '../assets/portfolio/download.jpg'
+import spotify from '../assets/portfolio/spotify.jpg'
 
 const Portfolio = ()=> {
 
@@ -27,15 +28,15 @@ const Portfolio = ()=> {
             sitelink : "https://playful-choux-bb46c2.netlify.app/",
             code : 'https://github.com/priksh291/FitClub-Starter'
         },
-        
         {
             id:3,
-            src: download,
-            heading : "Projects Server",
-            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
-            code: 'https://github.com/priksh291/reactcourse'
+            src: spotify,
+            heading : "Spotify",
+            sitelink : 'https://spotify-clone-client.netlify.app/',
+            code: 'https://github.com/priksh291/SpotifyClone2.0'
             
         },
+        
         {
             id:4,
             src: tenzi,
@@ -54,12 +55,13 @@ const Portfolio = ()=> {
         
         {
             id:6,
-            src: digital,
-            heading : "Digital Marketing",
-            code: 'https://github.com/priksh291/digital-market'
+            src: download,
+            heading : "Projects Server",
+            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
+            code: 'https://github.com/priksh291/reactcourse'
             
         },
-
+        
     ]
     const handleClick = (sitelink) => {
         
