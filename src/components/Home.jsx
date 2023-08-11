@@ -3,7 +3,7 @@ import HeroImage from "../assets/HeroImage.jpg";
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from "react-scroll";
 import '../App.css';
-import Typed from 'react-typed';
+
 
 const Home = () => {
 
