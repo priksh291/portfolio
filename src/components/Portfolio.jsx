@@ -3,15 +3,11 @@ import React from 'react'
 import pkcrypto from '../assets/portfolio/pkcrypto.jpg'
 import tenzi from '../assets/portfolio/tenzi.png'
 import gym from '../assets/portfolio/gym.jpg'
-import oyo from '../assets/portfolio/oyo.jpg'
 import download from '../assets/portfolio/download.jpg'
-import spotify from '../assets/portfolio/spotify.jpg'
+import onlydevs from '../assets/portfolio/onlydevs.png'
+import hangman from '../assets/portfolio/hangman.png'
 
 const Portfolio = ()=> {
-
-    
-    
-    
 
     const portfolios = [
         {
@@ -23,27 +19,27 @@ const Portfolio = ()=> {
         },
         {
             id:2,
-            src: spotify,
-            heading : "Spotify Clone",
-            sitelink : 'https://spotify-clone-client.netlify.app/',
-            code: 'https://github.com/priksh291/SpotifyClone2.0'
+            src: onlydevs,
+            heading : "OnlyDevs",
+            sitelink : 'https://onlydevs-gamma.vercel.app/',
+            code: 'https://github.com/priksh291/onlydevs'
             
         },
         {
             id:3,
+            src: hangman,
+            heading : "Hangman Game",
+            sitelink : 'https://main--hangmantypescript.netlify.app/',
+            code : 'https://github.com/priksh291/hangman'
+        },
+        {
+            id:4,
             src: gym,
             heading : "Gym and Training Center- Fitclub",
             sitelink : "https://playful-choux-bb46c2.netlify.app/",
             code : 'https://github.com/priksh291/FitClub-Starter'
         },
-        {
-            id:4,
-            src: download,
-            heading : "Projects Server",
-            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
-            code: 'https://github.com/priksh291/reactcourse'
-            
-        },
+        
         
         {
             id:5,
@@ -52,16 +48,19 @@ const Portfolio = ()=> {
             sitelink : 'https://zippy-sorbet-03c2bc.netlify.app/',
             code : 'https://github.com/priksh291/Tenzies'
         },
-        
-        
-        
+
         {
             id:6,
-            src: oyo,
-            heading : "Hotel Reservation",
-            sitelink : 'https://master--splendid-eclair-1056fd.netlify.app/',
-            code : 'https://github.com/priksh291/airbnb-'
+            src: download,
+            heading : "Projects Server",
+            sitelink: "https://gorgeous-stardust-0d2c21.netlify.app/",
+            code: 'https://github.com/priksh291/reactcourse'
+            
         },
+        
+        
+        
+        
     ]
     const handleClick = (sitelink) => {
         
